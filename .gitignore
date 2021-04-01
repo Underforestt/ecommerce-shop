@@ -154,5 +154,7 @@ dmypy.json
 
 .idea/
 
+.static/
+
 
 
