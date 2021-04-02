@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+{% block title %}
+ Product
+{% endblock %}
+
+{% load static %}
+
+{% block content %}
+
+
+
+<div class="container py-5">
+ <div class="row mt-5">
+  <div class="col-10 mx-auto col-md-6 my-3">
+   <img class="img-fluid" src="{% static 'teddy.png' %}">
+  </div>
+ </div>
+</div>
+
+<div class="col-10 mx-auto col-md-6 my-3">
+ <div>
+  <h1 class="product_title">Teddy Bear</h1>
+  <h5 class="text-info fst-italic mb-0 mb-4"> 10.95$</h5>
+  <p class="product_desc">Product description</p>
+  <p class="product_text text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+   type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+   electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+   sheets containing Lorem Ipsum passages, and more recently with desktop publishing softwar
+   e like Aldus PageMaker including versions of Lorem Ipsum.</p>
+  <p class="product_text text-justify">Out of stock</p>
+ </div>
+
+</div>
+{% endblock %}
